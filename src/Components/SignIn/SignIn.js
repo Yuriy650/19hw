@@ -13,7 +13,7 @@ const SignIn = (props) => {
         margin: '20px auto', background: 'lightblue'
     };
     const avatarStyle = {backgroundColor: '#12c556'};
-    const textFieldStyle = {margin: '15px auto'};
+    const textFieldStyle = {margin: '15px auto', color: 'white'};
     const buttonStyle = {margin: '15px auto'};
     const linkStyle = {margin: '5px auto', padding: '5px'}
     return (
@@ -26,7 +26,7 @@ const SignIn = (props) => {
                     <h2>Sign in</h2>
                 </Grid>
                 <TextField style={textFieldStyle} id='outlined-basic' label='e-mail' type='mail'
-                           placeholder='Email Address' variant='outlined' fullWidth />
+                           placeholder='Email Address' variant='outlined' fullWidth/>
                 <TextField style={textFieldStyle} id='outlined-basic' label='password' type='password'
                            placeholder='Enter your password' variant='outlined' fullWidth/>
                 <FormControlLabel

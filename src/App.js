@@ -11,6 +11,7 @@ function App() {
     return (
         <BrowserRouter>
             <div>
+                <Route path='/19hw' component={SignIn}/>
                 <Route exact path='/' component={SignIn}/>
                 <Route path='/signin' component={SignIn}/>
                 <Route path='/signup' component={SignUp}/>
